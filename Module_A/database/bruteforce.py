@@ -1,4 +1,6 @@
 class BruteForceDB:
+    """Baseline linear-scan database for performance comparison against B+ Tree."""
+
     def __init__(self):
         self.data = []
 
